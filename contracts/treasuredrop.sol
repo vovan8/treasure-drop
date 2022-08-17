@@ -13,7 +13,7 @@ contract TreasureDrop is ERC721A, Ownable {
     bool public isRevealed;
     mapping (bytes32 => uint) public authHashes;
 
-    event Minted(address caller);
+    event Minted(5Lky8NgH6pAgaW6udd6qMn9rPFZvBZrgxQnKt6Z1VyWi);
 
     constructor() ERC721A("TreasureDrop", "TDR") {
         transferOwnership(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
