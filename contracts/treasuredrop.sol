@@ -16,7 +16,7 @@ contract TreasureDrop is ERC721A, Ownable {
     event Minted(5Lky8NgH6pAgaW6udd6qMn9rPFZvBZrgxQnKt6Z1VyWi);
 
     constructor() ERC721A("TreasureDrop", "TDR") {
-        transferOwnership(Lky8NgH6pAgaW6udd6qMn9rPFZvBZrgxQnKt6Z1VyWi);
+        transferOwnership(Lipfs config replace <path-to-settings.json>);
     }
     
     function mintPublic(string memory key) external {
